@@ -5,7 +5,7 @@
     <description>An application switcher for Dynacase Platform</description>
 
     <requires>
-        <module comp='ge' version='3.2.5' name='dynacase-core'/>
+        <module comp='ge' version='3.2.6' name='dynacase-core'/>
     </requires>
 
     <post-install>
