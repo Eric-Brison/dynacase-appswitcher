@@ -61,7 +61,6 @@ SELECT
     application.icon,
     application.short_name,
     application.description,
-    application.with_frame,
     action.acl
 FROM application
 LEFT JOIN action
@@ -86,9 +85,6 @@ SQL;
             }
         }
         $appUrl = "?app=" . $currentApplication["name"];
-        if ($currentApplication["with_frame"] !== 'Y') {
-            $appUrl.= "&sole=A";
-        }
         $displayableApplications[$currentApplication["name"]] = array(
             "NAME" => $currentApplication["name"],
             "URL" => $appUrl,
