@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TEMPLATE\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-25 17:36+0100\n"
+"POT-Creation-Date: 2014-04-08 11:03+0200\n"
 "PO-Revision-Date: 2013-02-25 17:40+0100\n"
 "Last-Translator: Jean Martin <jean.martin@somewhere.org>\n"
 "Language-Team: French <distrib@somewhere.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 msgid "APP_SWITCHER:APP_SWITCHER"
 msgstr "Application de sélection d'application"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:22
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:21
 msgid "APP_SWITCHER:APP_SWITCHER access"
 msgstr "ACL : Application de sélection d'application"
 
@@ -28,7 +28,7 @@ msgstr "Ajouter/Supprimer un raccourci"
 msgid "APP_SWITCHER:Admin access"
 msgstr "Accéder à l'espace d'administration"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:11 Apps/APP_SWITCHER/APP_SWITCHER.app:30
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:11 Apps/APP_SWITCHER/APP_SWITCHER.app:29
 msgid "APP_SWITCHER:Default app switcher for DCP"
 msgstr "Application de sélection d'application"
 
@@ -60,11 +60,11 @@ msgstr "Ouvrir dans une fenêtre..."
 msgid "APP_SWITCHER:Reload"
 msgstr "Recharger"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:39
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:38
 msgid "APP_SWITCHER:SETDEFAULTAPPLICATION"
 msgstr "SET DEFAULT APPLICATION"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:46
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:45
 msgid "APP_SWITCHER:SHORTCUT_APPLICATION"
 msgstr "SHORTCUT APPLICATION"
 
@@ -79,6 +79,11 @@ msgstr "Sélectionner comme application par défaut"
 #: tempCatalog.php:1
 msgid "APP_SWITCHER:Title"
 msgstr "Dynacase"
+
+#: Actions/APP_SWITCHER/app_switcher.php:25
+#, c-format
+msgid "APP_SWITCHER:User with fid '%s' not found."
+msgstr "Utilisateur avec fid '%s' non trouvé."
 
 #: Apps/APP_SWITCHER/APP_SWITCHER_init.php:16
 msgid "APP_SWITCHER:application present in application bar"

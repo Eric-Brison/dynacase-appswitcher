@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZOO\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-25 17:36+0100\n"
+"POT-Creation-Date: 2014-04-08 11:03+0200\n"
 "PO-Revision-Date: 2013-02-25 17:38+0100\n"
 "Last-Translator: John Doe <john.doe@somewhere.org>\n"
 "Language-Team: English <distrib@somewhere.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 msgid "APP_SWITCHER:APP_SWITCHER"
 msgstr "Application Switcher"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:22
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:21
 msgid "APP_SWITCHER:APP_SWITCHER access"
 msgstr "ACL for Application Switcher"
 
@@ -27,7 +27,7 @@ msgstr "Add/Suppress shortcut"
 msgid "APP_SWITCHER:Admin access"
 msgstr "Administration area access"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:11 Apps/APP_SWITCHER/APP_SWITCHER.app:30
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:11 Apps/APP_SWITCHER/APP_SWITCHER.app:29
 msgid "APP_SWITCHER:Default app switcher for DCP"
 msgstr "Default app switcher for DCP"
 
@@ -59,11 +59,11 @@ msgstr "Open in a new window"
 msgid "APP_SWITCHER:Reload"
 msgstr "Reload"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:39
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:38
 msgid "APP_SWITCHER:SETDEFAULTAPPLICATION"
 msgstr "SET DEFAULT APPLICATION"
 
-#: Apps/APP_SWITCHER/APP_SWITCHER.app:46
+#: Apps/APP_SWITCHER/APP_SWITCHER.app:45
 msgid "APP_SWITCHER:SHORTCUT_APPLICATION"
 msgstr "SHORTCUT APPLICATION"
 
@@ -78,6 +78,11 @@ msgstr "Set as default application"
 #: tempCatalog.php:1
 msgid "APP_SWITCHER:Title"
 msgstr "Dynacase"
+
+#: Actions/APP_SWITCHER/app_switcher.php:25
+#, c-format
+msgid "APP_SWITCHER:User with fid '%s' not found."
+msgstr "User with fid '%s' not found."
 
 #: Apps/APP_SWITCHER/APP_SWITCHER_init.php:16
 msgid "APP_SWITCHER:application present in application bar"
