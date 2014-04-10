@@ -10,14 +10,20 @@ include_once "FDL/freedom_util.php";
  * Generate basic app switcher
  *
  * @param Action $action
- *
+ * @throws Dcp\Core\Exception
+ * @throws Dcp\Db\Exception
+ * @throws Dcp\Style\Exception
+ * @throws Dcp\DocManager\Exception
  */
 function app_switcher(Action & $action)
 {
     $action->parent->addCssRef("css/dcp/jquery-ui.css");
     $action->parent->addCssRef("APP_SWITCHER:app_switcher.css");
     
-    $user = new_Doc('', $action->user->fid);
+    $user = \Dcp\DocManager::getDocument($action->user->fid, false);
+    if ($user === null) {
+        $action->exitError(sprintf(_("APP_SWITCHER:User with fid '%s' not found.") , $action->user->fid));
+    }
     $action->lay->set("NAME", $user->getTitle());
     /** For authent mecanism */
     $action->lay->set("PHP_AUTH_USER", $_SERVER['PHP_AUTH_USER']);
@@ -49,6 +55,7 @@ function app_switcher(Action & $action)
  *
  * @param Action $action current action
  *
+ * @throws Dcp\Db\Exception
  * @return array
  */
 function getDisplayableApplication(Action $action)
