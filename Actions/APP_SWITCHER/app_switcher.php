@@ -18,9 +18,9 @@ function app_switcher(Action & $action)
     $action->parent->addCssRef("APP_SWITCHER:app_switcher.css");
     
     $user = new_Doc('', $action->user->fid);
-    $action->lay->set("NAME", $user->getTitle());
+    $action->lay->eSet("NAME", $user->getTitle());
     /** For authent mecanism */
-    $action->lay->set("PHP_AUTH_USER", $_SERVER['PHP_AUTH_USER']);
+    $action->lay->eSet("PHP_AUTH_USER", $_SERVER['PHP_AUTH_USER']);
     /**
      * Add widget code
      */
